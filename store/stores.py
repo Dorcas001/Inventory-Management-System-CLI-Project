@@ -113,8 +113,6 @@ def place_order():
                 # Create the order
                 order = Order.create_order(customer_id, product_id, quantity)
                 print(f'Successfully placed order for   Quantity: {quantity},ProductName: {product.name} and Customer: {customer.firstName} {customer.lastName}')
-                print(f'Customer ID: {customer_id}, Customer Name: {customer.firstName} {customer.lastName}')
-                print(f'Product ID: {product_id}, Product Name: {product.name}')
                 print(f'Total Price: {total_price}')
 
             else:
