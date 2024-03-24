@@ -1,4 +1,4 @@
-from inventory import Products, Customer, Order
+from inventory import *
 from inventconnect import CURSOR, CONN
 
 def exit_program():
